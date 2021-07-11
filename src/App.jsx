@@ -14,7 +14,7 @@ const STARK_SUITS = [
     name: "Mark II",
     image: "https://i.imgur.com/jtAv2IM.jpg",
     description:
-      "The Mark II Armor was Tony Stark's second Iron Man suit, heavily refining the bulky and rudimentary design of the previous Mark I suit into a more articulated and sleek design. However, due to a dangerous icing problem that immobilized the suit at higher altitudes, Stark replaced the suit with the Mark III armor. The Mark II was later acquired by James Rhodes and repurposed into the War Machine Armor: Mark I.",
+      "The Mark II Armor was Tony Stark's second Iron Man suit, heavily refining the bulky and rudimentary design of the previous Mark I suit into a more articulated and sleek design. However, due to a dangerous icing problem that immobilized the suit at higher altitudes.",
     status: "Destroyed",
   },
   {
@@ -50,25 +50,9 @@ const STARK_SUITS = [
 function App() {
   return (
     <div>
-      <Warehouse /> 
-      <Gallery suits={STARK_SUITS}/>
+      <Warehouse suits={STARK_SUITS} />
     </div>
   );
 }
 
 export default App;
-
-/* return (
-    <>
-      {STARK_SUITS.map((suit) => {
-        return (
-          <div key={JSON.stringify(suit)}>
-            <h4>{suit.name}</h4>
-            <img src={suit.image} alt="Mark I" width="200" />
-            <p>{suit.description}</p>
-            <p>Status: {suit.status}</p>
-          </div>
-        );
-      })}
-    </>
-  ); */

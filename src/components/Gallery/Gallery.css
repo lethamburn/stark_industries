@@ -1,7 +1,7 @@
 @import "https://fonts.googleapis.com/css?family=Ubuntu:400,700italic";
 
 .container {
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
   max-height: 800px;
   max-width: 1280px;
@@ -83,7 +83,7 @@ p {
 h3 {
   padding: 10px;
   font-family: "Ubuntu", Helvetica, Arial, sans-serif;
-  color: #00a4a2;
+  color: #fff;
   margin: 20px;
   opacity: 0;
   transition: opacity 1s;
@@ -91,4 +91,13 @@ h3 {
   font-size: 16px;
   text-shadow: 1px 1px 2px black, 1px -1px 2px black, -1px 1px 2px black,
     -1px -1px 2px black;
+}
+
+h6{
+  color:#fff;
+  font-size: 14px;
+  margin: 0px;
+}
+span{
+  color: rgb(201, 2, 2);
 }
