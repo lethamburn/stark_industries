@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/stark_industries/static/css/main.6d1a7db5.chunk.css",
+    "main.js": "/stark_industries/static/js/main.c61deef9.chunk.js",
+    "main.js.map": "/stark_industries/static/js/main.c61deef9.chunk.js.map",
+    "runtime-main.js": "/stark_industries/static/js/runtime-main.f47e4493.js",
+    "runtime-main.js.map": "/stark_industries/static/js/runtime-main.f47e4493.js.map",
+    "static/js/2.dde4d587.chunk.js": "/stark_industries/static/js/2.dde4d587.chunk.js",
+    "static/js/2.dde4d587.chunk.js.map": "/stark_industries/static/js/2.dde4d587.chunk.js.map",
+    "index.html": "/stark_industries/index.html",
+    "static/css/main.6d1a7db5.chunk.css.map": "/stark_industries/static/css/main.6d1a7db5.chunk.css.map",
+    "static/js/2.dde4d587.chunk.js.LICENSE.txt": "/stark_industries/static/js/2.dde4d587.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f47e4493.js",
+    "static/js/2.dde4d587.chunk.js",
+    "static/css/main.6d1a7db5.chunk.css",
+    "static/js/main.c61deef9.chunk.js"
+  ]
+}
