@@ -7,10 +7,10 @@ const Warehouse = () => {
         <h1>
           <i> STARK INDUSTRIES</i>
         </h1>
+        <p></p>
       </div>
       <div id="circle1">
         <div id="inner-cirlce1">
-          <h2> </h2>
         </div>
       </div>
     </>

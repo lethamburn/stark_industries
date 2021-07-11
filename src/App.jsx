@@ -1,5 +1,5 @@
 import React from "react";
-import { Warehouse } from "./components";
+import { Warehouse, Gallery } from "./components";
 import "./App.css";
 
 const STARK_SUITS = [
@@ -31,12 +31,27 @@ const STARK_SUITS = [
       "The Mark IV Armor was Tony Stark's fourth Iron Man suit and was built to replace the Mark III after it was heavily damaged in Stark's fight with Obadiah Stane. Because it was built to be a direct replacement, the Mark IV is very similar to the Mark III with only a few minor changes.",
     status: "Destroyed",
   },
+  {
+    name: "Mark V",
+    image: "https://i.imgur.com/4Jq2bVu.jpg",
+    description:
+      "The Mark V (Mark 5), also known by its names as the 'Football' and Suitcase Armor, is an Emergency Suit, and was the fifth Iron Man Armor designed and created by Tony Stark. It is the first armor to feature a new portable system that can fold itself into a briefcase and be deployed for use in civilian areas.",
+    status: "Destroyed",
+  },
+  {
+    name: "Mark VI",
+    image: "https://i.imgur.com/FSSpwfC.jpg",
+    description:
+      "The Mark VI's armor design is based on the Mark IV, with the exception of the new triangular shaped Unibeam on its Chest Piece and armor coloring. Its overall color design uses red, gold and silver plates. It is the first armor to feature a triangular shaped Unibeam on its Chest Piece.",
+    status: "Destroyed",
+  },
 ];
 
 function App() {
   return (
     <div>
-      <Warehouse />
+      <Warehouse /> 
+      <Gallery suits={STARK_SUITS}/>
     </div>
   );
 }
